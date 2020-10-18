@@ -15,10 +15,10 @@
           cols="12"
         >
           <h1 class="display-1 font-weight-thin mb-4 black--text">
-            Masih penasaran dengan bioplastik ?
+            Kamu dapat cari tahu lebih lanjut tentang BIOPLASTIK
           </h1>
           <h4 class="subheading black--text">
-            Kepoin lebih lanjut di 
+            Hanya di
             <v-btn
                 outlined
                 href="https://www.instagram.com/eduplas.bio/"

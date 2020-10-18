@@ -20,18 +20,18 @@
     <v-main>
       <router-view></router-view>
       <v-footer
-        color="#F5F5F5"
+        color="#EEEEEE"
         padless
       >
         <v-card
           tile
-          color="#F5F5F5"
+          color="#EEEEEE"
           class="black--text text-center"
         >
           <v-card-text>
             <v-btn
               class="mx-4 black--text"
-              color="#F5F5F5"
+              color="#EEEEEE"
               href="https://www.instagram.com/eduplas.bio/"
             >
               <v-icon size="24px">

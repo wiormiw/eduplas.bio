@@ -1,7 +1,9 @@
 <template>
   <div class="content5">
       <v-container>
-            <v-card>
+            <v-card
+                color="#E1F5FE"
+            >
                 <v-card-text class="text-center black--text font-weight-light text-h3 text-md-h4 text-sm-h5">
                     BIO<b>PLASTIK</b> VS PLASTIK
                     <v-divider></v-divider>
@@ -83,5 +85,9 @@ export default {
 </script>
 
 <style>
-
+    .content5 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        background-color: #E1F5FE;
+    }
 </style>
