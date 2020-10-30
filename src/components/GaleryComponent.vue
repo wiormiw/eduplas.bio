@@ -4,6 +4,7 @@
       <v-col
         cols="12"
         sm="4"
+        class="text-center"
       >
         <CardGalery image="bioplastik1.jpeg" />
       </v-col>  

@@ -15,7 +15,6 @@
                        
                         <v-list color="white">
                         <v-list-item-group
-                            v-model="selectedItem"
                             color="primary"
                         >
                             <v-list-item
@@ -44,7 +43,6 @@
 export default {
     name: "Content9",
     data: () => ({
-      selectedItem: 0,
       items: [
         { text: 'GreenHope - Tanggerang', icon: 'mdi-diamond-stone', url: 'https://www.greenhope.co/faq-ecoplas-indonesia' },
         { text: 'TeloBag', icon: 'mdi-cards-heart', url: 'http://telobag.com/' },

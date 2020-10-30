@@ -1,7 +1,7 @@
 <template>
     <v-card
     max-width="344"
-    class="pa-2"
+    class="pa-2 cardgalery"
     >
         <v-img
         :src="require(`../assets/${image}`)"
@@ -20,7 +20,9 @@ export default {
 </script>
 
 <style>
-    .galery-item{
-        padding: 0;
+    .cardgalery{
+        align-content: center;
+        justify-content: center;
+        margin: auto;
     }
 </style>
