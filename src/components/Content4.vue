@@ -30,7 +30,7 @@
                                 <br>
                             </v-card-text>
                             <v-divider></v-divider>
-                            <router-link to="/galery">
+                            <router-link to="/galery" @click.native="$router.go()">
                                 <v-btn text class="lengkap">
                                     <span>Lihat selengkapnya di galery</span>
                                     <v-icon right>mdi-arrow-right</v-icon>
@@ -50,13 +50,14 @@ import bioplastic from "../assets/bioplastic.jpg"
 
 export default {
     name: "Content4",
-
     data: function() {
         return {
             bioplastic: bioplastic
         }
-    }
-
+    },
+    mounted () {
+        window.scrollTo(0, 0)
+    },
 }
 </script>
 

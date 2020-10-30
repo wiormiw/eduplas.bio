@@ -28,7 +28,10 @@
 
 <script>
 export default {
-  name: "Content"
+  name: "Content",
+  mounted () {
+    window.scrollTo(0, 0)
+  }
 }
 </script>
 

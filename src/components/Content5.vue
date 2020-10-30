@@ -80,6 +80,9 @@ export default {
             { text: 'Membahayakan biota laut', icon: 'mdi-arrow-right-bold-circle'},
         ],
         }
+    },
+    mounted () {
+        window.scrollTo(0, 0)
     }
 }
 </script>

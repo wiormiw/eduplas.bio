@@ -57,6 +57,9 @@ export default {
         { text: 'Salah satu penyebab banjir', icon: 'mdi-checkbox-multiple-blank-circle', subtitle: "Pembuangan sampah plastik sembarangan di sungai-sungai akan mengakibatkan pendangkalan sungai dan penyumbatan aliran sungai yang menyebabkan banjir." },
       ],
     }
+  },
+  mounted () {
+    window.scrollTo(0, 0)
   }
 }
 </script>

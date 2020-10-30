@@ -28,10 +28,13 @@ import image from "../assets/undraw_thoughts.svg"
 
 export default {
     name: "Content3",
-     data: function () {
+    data: function () {
         return {
             image: image,
         }
+    },
+    mounted () {
+        window.scrollTo(0, 0)
     }
 }
 </script>

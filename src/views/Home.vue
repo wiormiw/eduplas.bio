@@ -39,5 +39,8 @@ export default {
     Content8,
     Content9,
   },
+  mounted () {
+    window.scrollTo(0, 0)
+  }
 };
 </script>

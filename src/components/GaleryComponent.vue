@@ -66,6 +66,9 @@ import CardGalery from "../components/CardGalery"
 export default {
   components: {
       CardGalery
+  },
+  mounted () {
+    window.scrollTo(0, 0)
   }
 }
 </script>

@@ -57,6 +57,9 @@ export default {
         { text: 'Usaha Plastik', icon: 'mdi-diamond-stone', url: 'https://tokopedia.link/xubRWjX2Sab' },
       ],
     }),
+    mounted () {
+        window.scrollTo(0, 0)
+    }
 }
 </script>
 

@@ -16,7 +16,7 @@ const routes = [
     path: "/galery",
     name: "Galery",
     component: Galery,
-    meta: {title: "Eduplas.Bio - Galery"}
+    meta: {title: "Eduplas.Bio - Galery"},
   },
   {
     path: "/about",
@@ -31,7 +31,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  routes
+  routes,
 });
 
 export default router;

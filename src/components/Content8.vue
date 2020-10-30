@@ -57,7 +57,8 @@ export default {
       }
     },
     mounted () {
-      this.fillData()
+      this.fillData(),
+      window.scrollTo(0, 0)
     },
     methods: {
       fillData () {

@@ -16,6 +16,9 @@ import Content7 from "../components/Content7.vue"
 export default {
   components: {
     Content7,
+  },
+  mounted () {
+    window.scrollTo(0, 0)
   }
 }
 </script>
