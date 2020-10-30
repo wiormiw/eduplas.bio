@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import Galery from "../views/Galery.vue"
 
 Vue.use(VueRouter);
 
@@ -12,6 +13,12 @@ const routes = [
     meta: {title: "Eduplas.Bio - Home"}
   },
   {
+    path: "/galery",
+    name: "Galery",
+    component: Galery,
+    meta: {title: "Eduplas.Bio - Galery"}
+  },
+  {
     path: "/about",
     name: "About",
     // route level code-splitting
@@ -20,7 +27,7 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
     meta: {title: "Eduplas.Bio - About"}
-  }
+  },
 ];
 
 const router = new VueRouter({

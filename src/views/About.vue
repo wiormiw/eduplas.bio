@@ -15,7 +15,7 @@ import Content7 from "../components/Content7.vue"
 
 export default {
   components: {
-    Content7
+    Content7,
   }
 }
 </script>

@@ -74,7 +74,7 @@ export default {
 <style>
     .content8 {
         margin-top: 5rem;
-        background-color: #fff;
+        background-color: #ffffff;
     }
     .textContent {
         margin-top: 5rem;

@@ -9,6 +9,12 @@
         </v-btn>
         </router-link>
       </v-toolbar-title>
+      <router-link to="/galery">
+      <v-btn text>
+        <span>galery</span>
+        <v-icon right>mdi-earth-box</v-icon>
+      </v-btn>
+      </router-link>
       <router-link to="/about">
       <v-btn text>
         <span>about</span>
@@ -60,9 +66,6 @@
 
 export default {
   name: "App",
-
-  components: {
-  },
   
 };
 </script>

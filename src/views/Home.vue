@@ -8,6 +8,8 @@
     <v-divider></v-divider>
     <Content5 />
     <Content8 />
+    <v-divider></v-divider>
+    <Content9 />
     <Content6 />
   </div>
 </template>
@@ -22,6 +24,7 @@ import Content4 from "../components/Content4.vue"
 import Content5 from "../components/Content5.vue"
 import Content6 from "../components/Content6.vue"
 import Content8 from "../components/Content8.vue"
+import Content9 from "../components/Content9.vue"
 
 export default {
   name: "Home",
@@ -34,6 +37,7 @@ export default {
     Content5,
     Content6,
     Content8,
+    Content9,
   },
 };
 </script>
